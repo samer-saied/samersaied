@@ -10,8 +10,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/Team-Grid.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
@@ -22,51 +26,61 @@
             <div class="collapse navbar-collapse"
                 id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link active py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#applications">Applications</a></li>
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link active py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#applications" style="color: #f1faee;">Applications</a></li>
                     <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Skills</a></li>
                     <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+    <div class="simple-slider">
+        <div class="justify-content-center align-items-center align-content-center swiper-container">
+            <div class="swiper-wrapper">
+                <div></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
     <header class="masthead text-white text-center" style="background-color: #a8dadc;color: rgb(0,0,0);">
-        <div class="container"><img class="img-fluid border rounded-circle d-block mx-auto mb-5" src="assets/img/profile.jpg" style="height: 280px;margin: 0;padding: 0;width: 280;">
-            <h1 style="color: #1d3557;">Samer Saied</h1>
+        <div class="container" style="width: 200;height: 200;">
+            <h1 data-aos="zoom-in" data-aos-duration="1000" style="color: #1d3557;">Samer Saied</h1>
             <h3 class="font-weight-light mb-0" style="color: #1d3557;font-style: normal;">Mobile Developer</h3>
-            <h2 class="font-weight-light mb-0" style="color: #1d3557;">Flutter framework - Android , IOS and Web</h2>
+            <h2 class="font-weight-light mb-0" style="color: #1d3557;">Flutter framework Android , IOS and Web</h2>
         </div>
     </header>
     <div id="applications" class="features-boxed">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center">APPLICATIONS</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+                <p class="text-center">Some of applications which developed by flutter framework and available for ios and android and web</p>
             </div>
             <div class="row justify-content-center features">
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><img src="assets/img/applications/collectOrder.png" height="100">
-                        <h1 class="name">Collect Order</h1>
-                        <p class="description">When a group of friends go out and order different sandwiches, this application can handle a specific order for every friend.<br></p><a href="#" class="learn-more">Learn more »</a></div>
+                        <h1 class="name" style="padding: 10px;">Collect Order</h1>
+                        <p class="description">When a group of friends go out and order different sandwiches, this application can handle a specific order for every friend.<br></p><a href="collectOrder.html" class="learn-more" style="color: #1d3557;">Learn more »</a></div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><img src="assets/img/applications/cigarettes.png" height="100">
-                        <h1 class="name">Cigarettes Off<br></h1>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                        <h1 class="name" style="padding: 10px;">Cigarettes Off<br></h1>
+                        <p class="description">help you quit smoking by advice, collect information about the date of quitting to show statistic.</p><a href="Cigarettes.html" class="learn-more" style="color: #1d3557;">Learn more »</a></div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><img src="assets/img/No_image.png" height="100">
-                        <h1 class="name">Food Shop</h1>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                    <div class="box"><img src="assets/img/applications/foodshop.png" height="100">
+                        <h1 class="name" style="color: #1d3557;padding: 10px;">Food Shop</h1>
+                        <p class="description">Flutter framework available for IOS and Andriod . &nbsp;Firebase backend Bloc state manager.</p><a href="foodshop.html" class="learn-more" style="color: #1d3557;">Learn more »</a></div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><img class="border rounded" src="assets/img/applications/fas7ny.jpg" height="100">
-                        <h3 class="name">Fas7ny</h3>
-                        <p class="description" style="color: #7d8285;font-size: 17px;">The Guide for Egypt Tourist Attraction places<br></p><a href="#" class="learn-more">Learn more »</a></div>
+                        <h3 class="name" style="padding: 10px;color: #1d3557;">Fas7ny</h3>
+                        <p class="description" style="color: #7d8285;font-size: 17px;">The Guide for Egypt Tourist Attraction places<br></p><a href="fas7ny.html" class="learn-more" style="color: #1d3557;">Learn more »</a></div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><img src="assets/img/No_image.png" height="100">
-                        <h3 class="name">E-commerce</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+                        <h3 class="name" style="padding: 10px;color: #1d3557;">E-commerce</h3>
+                        <p class="description">Ecommerce application Flutter framework Getx state management without API</p><a href="#" class="learn-more" style="color: #1d3557;">Learn more »</a></div>
                 </div>
             </div>
         </div>
@@ -75,15 +89,15 @@
         <div class="container">
             <h2 class="text-uppercase text-center text-white">Skills</h2>
             <hr class="star-light mb-5">
-            <div class="row">
+            <div class="row text-center">
                 <div class="col d-xl-flex justify-content-xl-center align-items-xl-center"><img class="img-fluid" src="assets/img/skills/flutter.png" width="200" height="200" style="width: 75;height: 100;"></div>
                 <div class="col-lg-4 d-xl-flex ml-auto justify-content-xl-center align-items-xl-center"><img class="img-fluid d-xl-flex justify-content-xl-center align-items-xl-center" src="assets/img/skills/dart.png" width="200" height="200" style="width: 74;height: 79;"></div>
                 <div class="col-lg-4 d-xl-flex mr-auto justify-content-xl-center align-items-xl-center"><img class="img-fluid d-xl-flex justify-content-xl-center align-items-xl-center" src="assets/img/skills/GitHub-Logo.png" width="200" height="200" style="width: 74;height: 79;"></div>
                 <div class="col-lg-4 d-xl-flex mr-auto justify-content-xl-center align-items-xl-center"><img class="img-fluid" src="assets/img/skills/firebase.svg" width="200" height="200" style="width: 74;height: 79;"></div>
                 <div class="col-lg-4 d-xl-flex mr-auto justify-content-xl-center align-items-xl-center"><img class="img-fluid d-xl-flex justify-content-xl-center align-items-xl-center" src="assets/img/skills/MongoDB.png" width="200" style="width: 74;height: 79;"></div>
-                <div class="col-lg-4 d-xl-flex mr-auto justify-content-xl-center align-items-xl-center"><img class="img-fluid d-xl-flex justify-content-xl-center align-items-xl-center" src="assets/img/skills/MySQL.png" width="200" height="200" style="width: 74;height: 79;"></div>
-                <div class="col-lg-4 d-xl-flex mr-auto justify-content-xl-center align-items-xl-center"><img class="img-fluid" src="assets/img/skills/cleancode_4x.png" width="200" style="width: 74;height: 79;"></div>
-                <div class="col-lg-4 d-xl-flex mr-auto justify-content-xl-center align-items-xl-center"><img class="img-fluid" src="assets/img/skills/solid.png" width="200" style="width: 74;height: 79;"></div>
+                <div class="col-lg-4 d-xl-flex mr-auto justify-content-xl-center align-items-xl-center"><img class="img-fluid d-xl-flex justify-content-xl-center align-items-xl-center" src="assets/img/skills/MySQL.png" width="200px" height="200px" style="width: 74;height: 79;"></div>
+                <div class="col-lg-4 d-xl-flex mr-auto justify-content-xl-center align-items-xl-center"><img class="img-fluid" src="assets/img/skills/cleancode_4x.png" width="200px" height="200px" style="width: 74;height: 79;"></div>
+                <div class="col-lg-4 d-xl-flex mr-auto justify-content-xl-center align-items-xl-center"><img class="img-fluid" src="assets/img/skills/solid.png" width="200 px" height="200 px" style="width: 74;height: 79;"></div>
                 <div class="col-lg-4 d-xl-flex mr-auto justify-content-xl-center align-items-xl-center"><img class="img-fluid" src="assets/img/skills/api%20(1).png" width="200" style="width: 20;height: 20;"></div>
             </div>
         </div>
@@ -147,6 +161,8 @@
     <script src="assets/js/freelancer.js"></script>
     <script src="assets/js/bs-animation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
 </body>
 
 </html>

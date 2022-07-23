@@ -3,7 +3,7 @@
 }
 
 a:active, a:focus, a:hover {
-  /*color: #fff!important;*/
+  color: #e63946!important;
 }
 
 a {
@@ -15,13 +15,13 @@ a:hover {
   text-decoration: underline;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #fff!important;
+#mainNav .navbar-nav li.nav-item a.nav-link:active {
+  color: #e63946!important;
 }
 
 @media (min-width:992px) {
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
+    /*color: #ffffff;*/
     background: #e63946!important;
   }
 }
@@ -29,5 +29,39 @@ a:hover {
 hr.star-light:after {
   color: #fff;
   background-color: #457b9d;
+}
+
+@media (min-width:992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    /*color: #fff;*/
+    /*background: #e63946!important;*/
+  }
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #e63946!important;
+}
+
+a:active, a:focus, a:hover {
+  color: #e63946!important;
+}
+
+a {
+  color: #18bc9c;
+}
+
+a:active, a:focus, a:hover {
+  color: #128f76;
+}
+
+@media (min-width:992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    /*background: #18bc9c;*/
+  }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem #457b9d;
 }
 

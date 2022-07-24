@@ -3,7 +3,7 @@
 }
 
 a:active, a:focus, a:hover {
-  color: #e63946!important;
+  color: #f1faee!important;
 }
 
 a {
@@ -39,11 +39,10 @@ hr.star-light:after {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #e63946!important;
+  /*color: #e63946!important;*/
 }
 
 a:active, a:focus, a:hover {
-  color: #e63946!important;
 }
 
 a {
@@ -57,11 +56,17 @@ a:active, a:focus, a:hover {
 @media (min-width:992px) {
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    /*background: #18bc9c;*/
+    background: #18bc9c;
   }
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 .2rem #457b9d;
+}
+
+.btn-outline-light:hover {
+  color: #212529;
+  background-color: #e63946;
+  border-color: #f8f9fa;
 }
 
